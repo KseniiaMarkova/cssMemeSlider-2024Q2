@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>CSS Meme Slider</title>
 </head>
+
 <body>
-    <div>Hello</div>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <div class="mem-image spider-mem active" id="spider-mem-image"></div>
+                <div class="mem-image golub-mem noactive" id="golub-mem-image"></div>
+                <div class="mem-image zdun-mem noactive" id="zdun-mem-image"></div>
+                <div class="mem-image utro-mem noactive" id="utro-mem-image"></div>               
+            </div>
+            <div class="caption-control">
+                <div class="caption active" id="spider-mem-header"><h1>-Ты мем <br> - Нет ты мем</h1></div>
+                <div class="caption noactive" id="golub-mem-header"><h1>-Это голубь?</h1></div>
+                <div class="caption noactive" id="zdun-mem-header"><h1>Я что-то нажала и все исчезло</h1></div>
+                <div class="caption noactive" id="utro-mem-header"><h1>Спросите тяжело ли мне вставать по утрам? <br> Я не отвечу, потому что буду спать</h1></div>
+                    <div class="controls">
+                        <span class="control active" data-slide="0"></span>
+                        <span class="control" data-slide="1"></span>
+                        <span class="control" data-slide="2"></span>
+                        <span class="control" data-slide="3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
