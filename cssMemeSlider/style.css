@@ -140,3 +140,29 @@ h1{
 .control:hover {
     background-color: #007bff;
 }
+
+@media (max-width: 768px) {
+    .slider {
+        max-width: 80%;
+    }
+}
+@media (max-width: 500px) {
+    .slide {
+        height: auto;
+        margin-top: 1rem;
+    }
+    .caption-control-wrapper{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: unset;
+        margin-top: 0.75rem;
+    }
+    .caption {
+        padding-top: 0.75rem;
+    }
+}
+
+
+
+
+
