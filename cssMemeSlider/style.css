@@ -95,7 +95,7 @@ h1{
 .slide img {
     max-width: 100%;
     height: auto;
-    border-radius: 2%;
+    border-radius: 2rem;
     object-fit: contain;
 }
 
@@ -147,6 +147,12 @@ h1{
     }
 }
 @media (max-width: 500px) {
+    body{
+        align-items: unset;
+}
+    .slider {
+        margin-top: 8rem;
+    }
     .slide {
         height: auto;
         margin-top: 1rem;
