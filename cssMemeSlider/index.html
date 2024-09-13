@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Meme Slider</title>
+</head>
+
+<body>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="./assets/images/pauk.png" alt="Slide 1 Пауки" class="mem-image active" id="spider-mem-image">
+                <img src="./assets/images/golub.png" alt="Slide 2 голубь" class="mem-image noactive" id="golub-mem-image">
+                <img src="./assets/images/zdun.png" alt="Slide 3 Ждун" class="mem-image noactive" id="zdun-mem-image">
+                <img src="./assets/images/utro.png" alt="Slide 4 Утро" class="mem-image noactive" id="utro-mem-image">           
+            </div>
+            <div class="caption-control-wrapper">
+                <div class="caption active" id="spider-mem-header"><h1>-Ты мем <br> - Нет ты мем</h1></div>
+                <div class="caption noactive" id="golub-mem-header"><h1>-Это голубь?</h1></div>
+                <div class="caption noactive" id="zdun-mem-header"><h1>Я что-то нажала и все исчезло</h1></div>
+                <div class="caption noactive" id="utro-mem-header"><h1>Спросите тяжело ли мне вставать по утрам? <br> Я не отвечу, потому что буду спать</h1></div>
+                    <div class="controls">
+                        <div class="control-container activate">
+                            <span class="control activate" data-slide="0"></span>
+                        </div>
+                        <div class="control-container">
+                            <span class="control" data-slide="1"></span>
+                        </div>
+                        <div class="control-container">
+                            <span class="control" data-slide="2"></span>
+                        </div>
+                        <div class="control-container">
+                            <span class="control" data-slide="3"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
